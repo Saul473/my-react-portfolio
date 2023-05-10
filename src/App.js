@@ -1,20 +1,24 @@
-import Header from '../src/components/Header/header'
-import './css/app.css'
-
+// import Header from '../src/components/Header/header'
+import './css/app.css';
+import Nav from './components/Nav/nav';
+import About from './components/About/about';
 
 
 function App() {
   return (
     <>
-    <div className='header'>
+    {/* <div className='header'>
       <Header></Header>
-    </div>
+    </div> */}
     <div className='navbar'>
       <Nav></Nav>
     </div>
-    <div className='footer'>
-      <Footer></Footer>
+    <div className='about'>
+      <About></About>
     </div>
+    {/* <div className='footer'>
+      <Footer></Footer>
+    </div> */}
     </>
   );
 }
